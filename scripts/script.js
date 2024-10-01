@@ -6,7 +6,7 @@ function adicionarTarefa() {
     const tarefaTexto = input.value.trim();
 
     if (tarefaTexto === '') {
-        alert("VOCÊ TENTOU ADICIONAR UMA TAREFA SEM TEXTO");
+        alert("TAREFA VAZIA PREENCHA O CAMPO E TENTE NOVAMENTE !!!!");
         return;
     }
 
