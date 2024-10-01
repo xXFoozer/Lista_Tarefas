@@ -89,7 +89,7 @@ function editarTarefa(id){
 
 function deletarTarefa(id){
     tarefas = tarefas.filter(tarefa => tarefa.id !== id);
-    localStorage.setItem("tarefas", JSON.stringify(tarefas))    
+    localStorage.setItem("tarefas", JSON.stringify(tarefas))
     render();
 }
 
