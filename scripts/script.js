@@ -37,13 +37,13 @@ function render() {
         span.textContent = tarefas[i].text;
 
         const concluir = document.createElement("span");
-        concluir.textContent = "check";
+        concluir.textContent = "task_alt";
         concluir.classList.add("check");
         concluir.classList.add("material-symbols-outlined")
         concluir.setAttribute("onclick", `trocaConcluir(${tarefas[i].id})`);
 
         const edit = document.createElement("span");
-        edit.textContent = "edit";
+        edit.textContent = "edit_note";
         edit.classList.add("edit");
         edit.classList.add("material-symbols-outlined");
         edit.setAttribute("onclick", `editarTarefa(${tarefas[i].id})`)
